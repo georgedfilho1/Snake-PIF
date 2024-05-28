@@ -2,7 +2,7 @@
 O Snake Game é uma versão clássica do jogo Snake, no qual o jogador controla uma cobra que se move pela tela em busca de maçãs. A cada maçã que a cobra come, seu tamanho aumenta e a velocidade do jogo aumenta gradualmente. O objetivo é fazer a cobra crescer o máximo possível sem colidir com as paredes ou com seu próprio corpo. Quando a cobra colide, o jogo termina e o jogador pode inserir suas iniciais para registrar sua pontuação.
 # Como Executar:
 Clonar o Repositório:
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+https://github.com/georgedfilho1/Snake-PIF.git
 
 Navegar para o Diretório:
 cd nome-do-repositorio
