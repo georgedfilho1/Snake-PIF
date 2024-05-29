@@ -58,9 +58,8 @@ void adicionarSnakeNode(Snakenode **head, int x, int y) {
 
 void exibirSnake(Snakenode *head) {
   while (head) {
-    screenSetColor(GREEN, DARKGRAY);
     screenGotoxy(head->Nodex, head->Nodey);
-    printf("X");
+    printf("x");
     head = head->next;
   }
 }
@@ -95,9 +94,8 @@ void moverSnake(Snakenode **head, int x, int y) {
 }
 
 void exibirMaca(int x, int y) {
-  screenSetColor(RED, DARKGRAY);
   screenGotoxy(x, y);
-  printf("0");
+  printf("🍎");
 }
 
 int verificarColisaoCorpo(Snakenode *head, int x, int y) {
